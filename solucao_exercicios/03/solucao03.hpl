@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pipeline>
   <info>
-    <name>solucao03</name>
+    <name>solucao_exercicios\03\solucao03</name>
     <name_sync_with_filename>Y</name_sync_with_filename>
     <description/>
     <extended_description/>
@@ -16,7 +16,7 @@
     <created_date>2021/09/27 15:57:32.940</created_date>
     <modified_user>-</modified_user>
     <modified_date>2021/09/27 15:57:32.940</modified_date>
-    <key_for_session_key/>
+    <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
@@ -46,26 +46,26 @@
     </partitioning>
     <fields>
       <field>
+        <name>caminho</name>
+        <type>String</type>
+        <format/>
         <currency/>
         <decimal/>
-        <set_empty_string>N</set_empty_string>
-        <format/>
         <group/>
         <length>-1</length>
-        <name>caminho</name>
         <precision>-1</precision>
-        <type>String</type>
+        <set_empty_string>N</set_empty_string>
       </field>
       <field>
+        <name>wildcard</name>
+        <type>String</type>
+        <format/>
         <currency/>
         <decimal/>
-        <set_empty_string>N</set_empty_string>
-        <format/>
         <group/>
         <length>-1</length>
-        <name>wildcard</name>
         <precision>-1</precision>
-        <type>String</type>
+        <set_empty_string>N</set_empty_string>
       </field>
     </fields>
     <data>
@@ -77,32 +77,6 @@
     <attributes/>
     <GUI>
       <xloc>128</xloc>
-      <yloc>80</yloc>
-    </GUI>
-  </transform>
-  <transform>
-    <name>Get subfolder names</name>
-    <type>GetSubFolders</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <rownum>N</rownum>
-    <foldername_dynamic>Y</foldername_dynamic>
-    <rownum_field/>
-    <foldername_field>caminho</foldername_field>
-    <limit>0</limit>
-    <file>
-      <name/>
-      <file_required>N</file_required>
-    </file>
-    <attributes/>
-    <GUI>
-      <xloc>240</xloc>
       <yloc>80</yloc>
     </GUI>
   </transform>
@@ -139,7 +113,33 @@
     </file>
     <attributes/>
     <GUI>
-      <xloc>368</xloc>
+      <xloc>352</xloc>
+      <yloc>80</yloc>
+    </GUI>
+  </transform>
+  <transform>
+    <name>Get subfolder names</name>
+    <type>GetSubFolders</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <rownum>N</rownum>
+    <foldername_dynamic>Y</foldername_dynamic>
+    <rownum_field/>
+    <foldername_field>caminho</foldername_field>
+    <limit>0</limit>
+    <file>
+      <name/>
+      <file_required>N</file_required>
+    </file>
+    <attributes/>
+    <GUI>
+      <xloc>240</xloc>
       <yloc>80</yloc>
     </GUI>
   </transform>
