@@ -140,7 +140,7 @@
     <attributes/>
     <GUI>
       <xloc>240</xloc>
-      <yloc>176</yloc>
+      <yloc>48</yloc>
     </GUI>
   </transform>
   <transform_error_handling>
