@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pipeline>
   <info>
-    <name>solucao_exercicios\03\solucao03</name>
+    <name>solucao03</name>
     <name_sync_with_filename>Y</name_sync_with_filename>
     <description/>
     <extended_description/>
@@ -113,8 +113,8 @@
     </file>
     <attributes/>
     <GUI>
-      <xloc>352</xloc>
-      <yloc>112</yloc>
+      <xloc>368</xloc>
+      <yloc>80</yloc>
     </GUI>
   </transform>
   <transform>
@@ -140,7 +140,7 @@
     <attributes/>
     <GUI>
       <xloc>240</xloc>
-      <yloc>80</yloc>
+      <yloc>176</yloc>
     </GUI>
   </transform>
   <transform_error_handling>
